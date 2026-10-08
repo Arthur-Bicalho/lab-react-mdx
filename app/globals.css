@@ -26,3 +26,12 @@ code { font-size: .9em; }
 footer { border-top: 1px solid var(--line); color: var(--muted); padding-block: 2rem; }
 .skip-link { position: absolute; top: -100px; left: 1rem; background: white; padding: .8rem; }
 .skip-link:focus { top: 1rem; }
+.section-nav { display: flex; flex-wrap: wrap; gap: 1rem 1.5rem; }
+.section-nav a:focus-visible, .card a:focus-visible { outline-offset: 3px; }
+.grid > li { display: flex; }
+.grid .card { width: 100%; }
+.product-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: .6rem; }
+.team-card img { width: 120px; height: 120px; object-fit: cover; border-radius: 50%; }
+.card .eyebrow { margin-block: .8rem .2rem; }
+.card h3 { margin-block: .4rem; }
+.product-cover { display: block; width: 100%; max-width: 800px; border-radius: 1rem; margin-block: 1.5rem; }
